@@ -1,0 +1,38 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Work</title>
+  <link href="{% static 'bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+</head>
+<body>
+
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-md-12">
+      <h1 class="display-4">My Work</h1>
+      <div class="card mb-4">
+        <img src="{% static 'images/fedex_website.jpg' %}" class="card-img-top" alt="FedEx Website Image">
+        <div class="card-body">
+            <h5 class="card-title">FedEx Website</h5>
+          <p class="card-text">Developed a responsive and user-friendly website for FedEx to enhance their online presence and provide a seamless user experience.</p>
+        </div>
+      </div>
+      <div class="card mb-4">
+        <img src="{% static 'images/crm.jpg' %}" class="card-img-top" alt="CRM for Financial Firm Image">
+        <div class="card-body">
+          <h5 class="card-title">CRM for Financial Firm</h5>
+          <p class="card-text">Designed and developed a custom CRM system tailored for a financial firm to streamline client management and improve operational efficiency.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="{% static 'bootstrap/js/bootstrap.min.js' %}"></script>
+
+</body>
+</html>
+
